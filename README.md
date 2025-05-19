@@ -13,72 +13,29 @@ machine-learning applications. Future revisions of this repository will include
 source code, configuration examples and utilities for working across multiple
 cloud providers and on-premise hardware.
 
-## Dependencies
+## Project Structure
 
-The platform is expected to use the following core tools:
+- `src/` – Source code for the project. The `main.py` file contains a placeholder entry point that can be expanded.
+- `tests/` – Automated tests for the project. A basic test is included to verify the placeholder functionality.
+- `requirements.txt` – Placeholder for Python dependencies.
+- `.gitignore` – Standard ignores for Python projects and development tools.
 
-- **Python 3.10+** – primary development language.
-- **Git** – version control.
-- **Docker** (optional) – for reproducible environments.
+## Getting Started
 
-Any additional Python packages will be listed in `requirements.txt` as the
-project grows.
-
-## Environment Setup
-
-1. Clone the repository
-
+1. Create a virtual environment and install dependencies:
    ```bash
-   git clone https://github.com/<yourname>/AI-MCP.git
-   cd AI-MCP
-   ```
-
-2. Create and activate a Python virtual environment
-
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-
-3. Install dependencies (placeholder – this file will be added later)
-
-   ```bash
+   python -m venv venv
+   source venv/bin/activate
    pip install -r requirements.txt
    ```
+2. Run the main program:
+   ```bash
+   python -m src.main
+   ```
+3. Execute the test suite with `pytest`:
+   ```bash
+   pip install pytest  # if not installed
+   pytest
+   ```
 
-## Building the Platform
-
-Build steps will be added as the code base develops. A typical command might
-look like:
-
-```bash
-make build
-```
-
-## Running the Platform
-
-Once application code is available, you will be able to start the main service
-using a command similar to:
-
-```bash
-python main.py
-```
-
-Or, if using Docker:
-
-```bash
-docker compose up
-```
-
-## Contribution Guidelines
-
-Contributions are welcome! To get involved:
-
-1. Fork this repository and create a new branch from `main`.
-2. Keep your changes focused and document them clearly.
-3. Ensure new code is covered by tests once a testing framework is in place.
-4. Submit a pull request for review.
-
-By contributing to AI-MCP you agree that your work will be released under the
-MIT License.
-
+Feel free to extend this structure as development progresses.
