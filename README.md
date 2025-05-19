@@ -1,6 +1,17 @@
 # AI-MCP
+AI MCP 프로젝트를 위한 Repository (AI MCP project repository)
 
-This repository contains the initial scaffold for the AI MCP project.
+AI-MCP (AI Multi-Cloud Platform) provides a foundation for running and managing
+artificial intelligence workloads across different environments. This
+repository currently contains only the initial project files and will expand as
+development continues.
+
+## Purpose and Scope
+
+The goal of AI-MCP is to offer a unified platform for deploying and monitoring
+machine-learning applications. Future revisions of this repository will include
+source code, configuration examples and utilities for working across multiple
+cloud providers and on-premise hardware.
 
 ## Project Structure
 
